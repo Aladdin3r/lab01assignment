@@ -1,1 +1,23 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 5%;
+}
 
+.heading {
+    text-align: center;
+}
+
+summary {
+    padding: 2%;
+    list-style-position: inside;
+    
+}
+
+details:active {
+    background-color: grey;
+}
+
+li {
+    padding: 2px;
+}
